@@ -1,2 +1,6 @@
 @charset "UTF-8";
 
+header h1{
+  float: center;
+  color: red;
+}
