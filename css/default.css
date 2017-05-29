@@ -1,6 +1,52 @@
 @charset "UTF-8";
 
-header h1{
-  float: center;
+*{
+  background-color: black;
+}
+
+#kiken{
+  size: 100px;
   color: red;
+}
+
+header h1{
+  float: center;  //タイトル中央ぞろえ
+  color: red;
+}
+
+#ohuda article{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+
+//リンクのリ
+スト
+#move_scene ul{
+  overflow: hidden;
+}
+
+#move_scene li{
+  float: right; //固定幅で指定
+  width: 156px;
+  border-right: white 1px solod;  //右に線
+  list-style-type: none;  //点消す
+}
+
+
+
+//リンク関連
+#move_scene a{
+  display: block; //ブロックへ
+  padding: 10px 0;  //上下に余白
+  text-align: center; //中央揃え
+  background-color: dimgray;
+  color: red;
+}
+#move_scene a: hover{
+   //マウス乗せた処理
+  background-color: red;
+  color: black;
 }
