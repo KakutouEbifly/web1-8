@@ -50,3 +50,24 @@ header h1{
   background-color: red;
   color: black;
 }
+#move_scene a:after{
+  clear: both;
+}
+
+#move_scene div.text{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px 5px;
+}
+#move_scene div.img{
+  display: table-cell;
+  vertical-align: middle;
+  background: url(img/ebi.png) no-repeat;
+  width: 55px;
+  height: 46px;
+}
+div.img#top{  background-position: 0 0px;}
+div.img#story{background-position: 0 -46px;}
+div.img#shop{ background-position: 0 -92px;}
+div.img#spot{ background-position: 0 -138px;}
+div.img#sory{ background-position: 0 -184px;}
